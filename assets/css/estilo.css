@@ -1,0 +1,103 @@
+body {
+    margin:0 0;
+    font-family: 'Arial', sans-serif;
+}
+
+#cabecalho {
+    background-color: #30414E;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 10%;
+}
+
+#cabecalho header p{
+    margin: 0 0;
+    font-size: 2vh;
+}
+
+#cabecalho article {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+#cabecalho article a{
+    font-size: 1.5vh;
+    text-decoration: none;
+}
+
+#cabecalho article a,
+#cabecalho p {
+    color: white;
+    font-weight: 600;
+}
+
+#conteudo{
+    background-color: #1BBC9B;
+    color: white;
+    padding: 2% 2%;
+}
+
+#conteudo img{
+    width:50%;
+}
+
+#conteudo article,
+#conteudo h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#conteudo h1 {
+    font-size: 5vh;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#conteudo article p {
+    font-size: 3vh;
+    margin:3vh;
+    text-align: center;
+}
+
+/* Form */
+#formulario h2 {
+    margin:5vh 2vh 2vh 2vh;
+    font-weight: bolder;
+    font-size:3vh;
+    color: #30414E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#formulario form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#formulario form label {
+    color: #B7BDC5;
+}
+
+#formulario form input {
+    border: none;
+    border-radius: 0%;
+    border-bottom: thin solid #B7BDC5;
+    margin-bottom: 3vh;
+    width: 50%;
+    height: 2.5vh;
+    padding: 2vh 0;
+}
+
+#formulario form button {
+    border: none;
+    border-radius: 5px;
+    background-color: #1BBC9B;
+    color: white;
+    padding: 1.5vh;
+    margin-bottom: 2.5vh;
+}
